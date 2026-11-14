@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a21864b-650a-454d-b1ef-eed444cea72a">
+  <producedTypes>
+    <objectType typeId="910b8b89-a029-48fa-a53e-666dc7f87601" valueTypeId="c34f8da4-1f88-4cc9-b158-c6c0c2dabc98"/>
+    <managerType typeId="570a21df-7a03-4263-8d29-d2db7f57a021" valueTypeId="d7670638-7000-49a3-a085-2b8f10622e0d"/>
+  </producedTypes>
+  <name>ДК_СохранитьСтруктуруДокументаЗаказПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка (выгрузка) документов заказ покупателя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДК_СохранитьСтруктуруДокументаЗаказПокупателя.Form.Форма</defaultForm>
+  <forms uuid="47bfc8d1-ce80-47e0-b812-764827a288a5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

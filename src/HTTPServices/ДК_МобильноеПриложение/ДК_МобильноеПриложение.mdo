@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a91643a-8574-41a7-942d-50f21ea4817c">
+  <name>ДК_МобильноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>МобильноеПриложение</value>
+  </synonym>
+  <rootURL>mobile</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="9a688523-3ef6-40c2-9de4-794b0f41acad">
+    <name>ПроверкаСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка связи</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="ecc92e4a-450f-48b0-b7c6-2daa8841dfec">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ПроверкаСвязиGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f839f9e3-d692-4e97-a742-b444fb60bb05">
+    <name>ПолучитьЗаказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить заказы</value>
+    </synonym>
+    <template>/orders</template>
+    <methods uuid="f8b21ebe-b6fe-478e-a2bb-7b0ad759aea2">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ПолучитьЗаказыGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="294f03f4-3227-4700-b2c5-0ccce650e62e">
+    <name>Авторизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторизация</value>
+    </synonym>
+    <template>/authorization</template>
+    <methods uuid="815b57b5-d0c4-4a93-baa2-c3bb2b00690a">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>АвторизацияPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b16042ea-1f42-4b17-aec6-b442ae56bc90">
+    <name>Аутентификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация</value>
+    </synonym>
+    <template>/login</template>
+    <methods uuid="19120fd4-99b5-4b8f-81e9-238abe0f4c22">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>АутентификацияGet</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9fbb815-09fd-41b6-8f28-901095fe130b">
+  <name>ДК_Доработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДК_Доработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Доработка конфигурации поставщика 
+Домашнее задание к занятию «Внесение изменений в конфигурацию на поддержке»</value>
+  </explanation>
+  <content>Catalog.ДК_Должности</content>
+  <content>Catalog.ДК_КонтактныеЛица</content>
+  <content>Document.ДК_Доставка</content>
+  <content>DataProcessor.ДК_СохранитьСтруктуруДокументаЗаказПокупателя</content>
+  <content>Enum.ДК_СтатусЗаказа</content>
+  <content>Role.ДК_ДобавлениеИзменениеДоставки</content>
+  <content>Role.ДК_ЧтениеДоставки</content>
+  <content>Role.ДK_ИспользованиеМобильногоПриложенияКурьером</content>
+  <content>HTTPService.ДК_МобильноеПриложение</content>
+  <content>Catalog.ДК_ДоставкаПрисоединенныеФайлы</content>
+  <content>Enum.ДК_СтатусыДоставок</content>
+  <content>ExchangePlan.ДК_ОбменСМобильнымиУстройством</content>
+</mdclass:Subsystem>
