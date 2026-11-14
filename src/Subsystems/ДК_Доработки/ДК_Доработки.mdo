@@ -23,5 +23,5 @@
   <content>HTTPService.ДК_МобильноеПриложение</content>
   <content>Catalog.ДК_ДоставкаПрисоединенныеФайлы</content>
   <content>Enum.ДК_СтатусыДоставок</content>
-  <content>ExchangePlan.ДК_ОбменСМобильнымиУстройством</content>
+  <content>ExchangePlan.ДК_ОбменСМобильнымУстройством</content>
 </mdclass:Subsystem>
