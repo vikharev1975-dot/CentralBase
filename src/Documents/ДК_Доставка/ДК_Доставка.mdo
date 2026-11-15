@@ -142,20 +142,17 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b62297dd-97d2-43fc-8e89-9f661a5e4f73">
-    <name>СтатусДоставки</name>
+    <name>Статус</name>
     <synonym>
       <key>ru</key>
-      <value>Статус доставки</value>
+      <value>Статус</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>EnumRef.ДК_СтатусыДоставок</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
