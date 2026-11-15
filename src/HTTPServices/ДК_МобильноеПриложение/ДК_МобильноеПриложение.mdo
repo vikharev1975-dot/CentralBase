@@ -24,20 +24,4 @@
       <handler>АвторизацияGet</handler>
     </methods>
   </urlTemplates>
-  <urlTemplates uuid="dc4c05fe-1b06-46c6-bd3d-ef0d641321e9">
-    <name>ОбменДоставкаКлиентам</name>
-    <synonym>
-      <key>ru</key>
-      <value>Обмен доставка клиентам</value>
-    </synonym>
-    <template>/exchange</template>
-    <methods uuid="988fb6ae-e42b-44ac-953b-93fa31ad1d8e">
-      <name>Get</name>
-      <synonym>
-        <key>ru</key>
-        <value>Get</value>
-      </synonym>
-      <handler>ОбменДоставкаКлиентамGet</handler>
-    </methods>
-  </urlTemplates>
 </mdclass:HTTPService>
