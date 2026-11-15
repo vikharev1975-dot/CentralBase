@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>HTTPService.ДК_МобильноеПриложение</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды.Attribute.ПоказыватьОповещение</name>
 		<right>
 			<name>View</name>
@@ -314,6 +321,10 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>false</value>
+		</right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -8957,6 +8968,10 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>false</value>
+		</right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -23024,6 +23039,10 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>false</value>
+		</right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
